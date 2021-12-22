@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    />
+
+    <!-- Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+  
+
+    <!-- My CSS -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/996973c893.js"></script>
+
+    <!-- Google Font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Pomodoro Project</title>
+  </head>
+  <body onload='template()'>
+
+    <section>
+
+      <h1 class="title"> Pomodoro Project</h1>
+
+      <div class="container">
+          <div class="container-clock"> 
+            <h4 id="minute"></h4>
+            <h4 class=":">:</h4>
+            <h4 id="second"></h4>
+          </div>
+      </div>
+
+      <div class="btn">
+        <button  id="btn-play"> <i class="fas fa-play"></i></button>
+        <button id="btn-pause"><i class="fas fa-pause"></i></button>
+        <button  id="btn-restart"><i class="fas fa-redo"></i></button>
+      </div>
+      <div class="text"> 
+        <h3 id="text-content">time to work</h3>
+      </div>   
+    
+    </section>
+    <script src="main.js"></script>
+  </body>
+  
+</html>
